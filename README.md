@@ -1,5 +1,3 @@
-# Study-documentation
-Repository to document my personal studies.
 <h2 align="center">
     <a">🔗 Study-documentation </a>
 </h2>
