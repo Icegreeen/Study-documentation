@@ -1,5 +1,5 @@
 <h2 align="center">
-    <a">🔗 Study-documentation </a>
+    <a">🔗 Documentação de estudo para consulta pessoal</a>
 </h2>
 <p align="center">🚀 Repository to document my personal studies </p> 
 
