@@ -40,3 +40,7 @@ console.log(a)
 
 const [n1, , n3, , n5, n6 = 0] = [10, 7, 9, 8] // aqui pegando multiplos elementos a partir de uma array, extrair/desestruturar de dentro dessa estrutura e atribuirmos a varias variaveis usando apenas uma unica atribuicao '='.
 console.log(n1, n3, n5, n6)
+
+
+//--------------------------------------------------------
+
