@@ -1,4 +1,4 @@
-// função sem retorno 
+// Função sem retorno 
 
 function imprimirSoma (a, b) {
     console.log(a + b);
