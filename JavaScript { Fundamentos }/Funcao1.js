@@ -1,5 +1,7 @@
 // Função sem retorno 
 
+// O retorno neste caso já é implicito
+
 function imprimirSoma (a, b) {
     console.log(a + b);
 }
