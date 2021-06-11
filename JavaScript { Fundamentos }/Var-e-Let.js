@@ -7,7 +7,7 @@
 //As variáveis declaradas com 'var' pertencem ao Escopo Global 
 //quando são definidas fora de uma função, por exemplo:
 
-var iphone = "2"
+var iphone = '2'
 
 // Isso significa que a variável do 'iphone' é acessível por qualquer função.
 
