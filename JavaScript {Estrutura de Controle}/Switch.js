@@ -8,7 +8,7 @@ let day;
 switch (new Date().getDay()) {
   case 0:
     day = "Sunday";
-    break;
+    break;     // Se você omitir a instrução break, o próximo caso será executado mesmo se a avaliação não corresponder ao caso.
   case 1:
     day = "Monday";
     break;
@@ -56,18 +56,47 @@ const boasFestas = function () {
 
 boasFestas()
 
+//------------------------------------------------------------------------------------
 
-
-
-
-
-
-
+// Outro exemplo:
 
 const imprimirResultado = function (nota) {
     switch (Math.floor(nota)) {
         case 10: //
         case 9:
-            console.log('Quadro')
+            console.log('Black-mirror')
+            break
+        case 8: case 7:
+          console.log('Aprovado')
+          break
+        case 6: case 5: case 4:
+          console.log('Recuperação')
+          break
+        case 3: case 2: case 1: case 0:
+          console.log('Reprovado')
+          break
+        default: 
+          console.log('Nota inválida')
     }
 }
+
+imprimirResultado(-1)
+
+//-------------------------------------------------------------------------
+
+var fruits = '1';
+
+const exercicio = function() {
+  switch (fruits) {
+    case 'Banana': 
+      console.log('Olá')
+      break
+    case 'Maçã':
+      console.log('Bem-vindo')
+      break
+    default:
+      console.log('Não há nada aqui!')
+  }
+}
+
+exercicio()
