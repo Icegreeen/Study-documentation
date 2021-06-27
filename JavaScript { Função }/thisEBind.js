@@ -9,8 +9,8 @@ const pessoa = {
 
 pessoa.falar()
 
-const falar = pessoa.falar // output: undefined
-falar() // conflito entre paradigmas: funcional e OO
+const falar = pessoa.fala
+falar()  // output: undefined // conflito entre paradigmas: funcional e OO
 
 // o bind é o método responsável por amarrar determinado objeto para ele
 // ser o dono da execução daquele método sempre que aquele método for chamado.

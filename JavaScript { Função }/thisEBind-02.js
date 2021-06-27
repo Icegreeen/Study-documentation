@@ -1,4 +1,4 @@
-//
+// Explorando o método bind no Javascript.
 
 function Pessoa () {
     this.idade = 0
