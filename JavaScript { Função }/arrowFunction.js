@@ -1,4 +1,4 @@
-//
+// arromfunction sintase!
 
 let dobro = function (a) {
     return 2 * a
