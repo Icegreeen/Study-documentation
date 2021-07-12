@@ -2,6 +2,8 @@
 
 // Entendendo o this numa arrowfunction
 
+// * Não mais existe this no escopo de arrow functions.
+
 let comparaComThis = function (param) {
     console.log(this === param)
 }
@@ -23,6 +25,9 @@ comparaComThis(obj) // true
 
 //  Não há variação de forma alguma, mesmo forçando 
 //  um mudança de contexto com o método bind.
+
+// Pelo fato de que this pertence ao escopo do seu container, os métodos
+// call() , apply() e bind() não funcionam em arrow functions.
 
 let comparaComThisArrow = param => console.log(this === param)
 comparaComThisArrow(global) // false
