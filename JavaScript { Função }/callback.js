@@ -13,9 +13,12 @@ function imprimir(nome, indice) {
 
 fabricantes.forEach(imprimir);
 
-fabricantes.forEach(function(fabricante) {
+// Abaixo, cada atributo que ele encontra é executado o console.log
+
+fabricantes.forEach(function(fabricante) { 
     console.log(fabricante)
 })
 
+// Arrow
 fabricantes.forEach(fabricante => console.log(fabricante))
 
