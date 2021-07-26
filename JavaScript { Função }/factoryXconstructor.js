@@ -10,7 +10,7 @@ function PessoaFactory(nome){
     return obj;
 };
 
-//O fábrica cria um novo objeto, seta seus atributos e o retorna.
+//O factory cria um novo objeto, seta seus atributos e o retorna.
 
 let pessoa1 = PessoaFactory('Pedro');
 console.log(pessoa1.nome) //Pedro
@@ -34,3 +34,7 @@ console.log(pessoa2.nome); // Maria
 let pessoa3 = {}
 PessoaConstructor.call(pessoa2, 'Maria');
 console.log(pessoa2.nome); //Maria
+
+// A funcão PessoaConstructor é executada no contexto do objeto pessoa3, isso faz com que 
+// o this.nome dentro da função construtora passe a ser um atributo do objeto pessoa3, que
+// recebe o parâmetro passado para a função construtora;

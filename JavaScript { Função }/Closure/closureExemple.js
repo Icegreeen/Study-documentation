@@ -1,3 +1,4 @@
+
 // Closure é o escopo criado quando uma função é declarada
 // Esse escopo prmite a função acessar e manipular variaveis externas À função.
 
@@ -16,8 +17,13 @@ function fora(){
     return dentro
 }
 
-const minhaFuncao= fora();
+const minhaFuncao = fora();
 console.log(minhaFuncao())
+
+//--------------------------------------------------------------------------------------
+
+
+
 
 
 

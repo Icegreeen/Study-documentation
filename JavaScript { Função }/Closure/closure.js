@@ -20,9 +20,7 @@
 
 // Exemplo prático:
 
-// scope: global
-
-var a = 1
+var a = 1 // scope: global
 
 return function one() {
     // scope: one
@@ -43,16 +41,5 @@ return function one() {
     }()
 }()
 
-let gals = 1
 
-const time1 = function() {
-    console.log(gols)
-}
-
-const time2 = function(){
-    let gols = 2
-    time1()
-}
-
-time2()
 
